@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+</head>
+<body>
+<table>
+    <tr>
+        <td>First name</td>
+        <td th:text="${user.firstName}"></td>
+    </tr>
+    <tr>
+        <td>Last name</td>
+        <td th:text="${user.lastName}"></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <td th:text="${user.age}"></td>
+    </tr>
+    <tr>
+        <td>Phone number</td>
+        <td th:text="${user.phoneNumber}"></td>
+    </tr>
+    <tr>
+        <td>Email</td>
+        <td th:text="${user.email}"></td>
+    </tr>
+</table>
+</body>
+</html>
